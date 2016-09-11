@@ -23,7 +23,7 @@
         var dishes = convertString(dishes);
 
         if (dishes.length <= 3) $scope.result = 'Enjoy!';
-        else $scope.result = 'Too much!';  
+        else $scope.result = 'Too much!';
       } else $scope.result = 'Please enter data first';
     }
   }
