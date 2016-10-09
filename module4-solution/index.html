@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" ng-app="MenuApp">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module4 Solution</title>
+    <style>
+      categories ul li {
+        cursor: pointer;
+      }
+      categories ul li:hover {
+        color: green;
+      }
+    </style>
+  </head>
+<body>
+  <h1>Module4 Solution</h1>
+
+  <ui-view></ui-view>
+
+  <script src="lib/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+  <script src="src/menuapp.module.js"></script>
+  <script src="src/data.module.js"></script>
+
+  <script src="src/routes.js"></script>
+
+  <script src="src/categories.component.js"></script>
+  <script src="src/items.component.js"></script>
+  <script src="src/main-categories.controller.js"></script>
+  <script src="src/menudata.service.js"></script>
+</body>
+</html>
